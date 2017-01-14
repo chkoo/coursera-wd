@@ -10,6 +10,14 @@ body{
 	color:black;
 }
 
+.navbar {
+	background:#ccc;
+	font-size:175%;
+	font-weight:bold;
+	padding:20px;
+	border-bottom:1px solid black;
+}
+
 h1 {
 	font-size:175%;
 	text-align:center;
