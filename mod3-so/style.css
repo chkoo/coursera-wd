@@ -79,22 +79,19 @@ div.container {margin:10px;}
 p.content {
 	background-color:#f8f8f8;
 	border:1px solid #e7e7e7;
-	height:170px;
 	line-height:23px;
 	overflow:hidden;
 	padding:62px 20px 16px 20px;
 	margin:10px;
+	text-align:justify;
 }
 
 @media (min-width:992px) {
-	.column {float:left;}
-.col-lg-4 {width:33.3%;}
+	.column {float:none;}
 h3 {top:-10px;}
 }
 
 @media (min-width:768px) and (max-width:991px) {
-	.column {float:left;}
-.col-md-6 {width:50%;margin-top:10px;}
-.col-md-12 {width:100%;margin-top:0;}
+	.column {float:none;}
 h3 {top:-10px;}
 }
